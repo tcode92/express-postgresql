@@ -1,0 +1,9 @@
+# ignore any files having .env in the file name
+*.env*
+# keep .env.example
+!.env.example
+# ignore node_modules
+node_modules
+
+Dockerfile
+resetdb.sh
